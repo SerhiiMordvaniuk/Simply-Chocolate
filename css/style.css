@@ -1,0 +1,248 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+  font-style: normal;
+  background-color: #e9e9e9;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1168px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/*-------------HEADER---------------*/
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.header-logo-container {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.heder-logo {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.03em;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.header-logo-icon {
+  fill: transparent;
+  stroke: #fd9222;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  color: #111;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 190px;
+}
+
+.header-soc-list {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-soc-list-item {
+}
+
+.header-soc-list-icon {
+  stroke: #111;
+  fill: transparent;
+}
+
+/*-------------HERO---------------*/
+
+.hero-container {
+  border-radius: 30px;
+  width: 1136px;
+  height: 600px;
+  background-color: rgba(17, 17, 17, 0.6);
+  padding: 380px 40px 40px 40px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0.2) 0%,
+      rgba(17, 17, 17, 0.2) 100%
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+.hero-txt {
+  max-width: 484px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+}
+
+.hero-btn-buy {
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 144px;
+  height: 45px;
+  background-color: #fd9222;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  margin-right: 14px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn-buy:hover,
+.hero-btn-buy:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.hero-btn-howmade {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  height: 45px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn-howmade:hover,
+.hero-btn-howmade:focus {
+  border-color: #fd9222;
+  color: #fd9222;
+}
+
+.hero-scroll {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 14px;
+}
+
+.hero-scroll-txt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-btn-scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 38px;
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.hero-btn-scroll-icon {
+  fill: #fd9222;
+}
+
+.hero-btn-scroll:hover {
+  background-color: #fd9222;
+}
+.hero-btn-scroll:hover .hero-btn-scroll-icon {
+  fill: #fff;
+}
+
+/*-------------ABOUT US---------------*/
+
+.about-us {
+  background-color: #1e1823;
+}
+
+.about-us-container {
+  padding: 50px 18px;
+}
+
+.about-us-list {
+  display: flex;
+  gap: 88px;
+}
+
+.about-ust-list-item {
+  max-width: 308px;
+}
+
+.about-us-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.about-us-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
