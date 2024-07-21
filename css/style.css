@@ -247,6 +247,7 @@ button {
 
 .about-us {
   background-color: #1e1823;
+  margin-bottom: 120px;
 }
 
 .about-us-container {
@@ -279,20 +280,53 @@ button {
 
 /*-------------TASTE----------------------*/
 
+.taste-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  max-width: 412px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
 .taste-img-list {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
 }
-.taste-img-container {
+.taste-img-list-item:nth-child(n) {
+  background-color: #fd9222;
+  color: #fff;
+  stroke: #fff;
+}
+
+.taste-img-list-item:nth-child(2n) {
+  background-color: #fff;
+  color: #111;
+  stroke: #fd9222;
+}
+.taste-img-list-item:nth-child(3),
+.taste-img-list-item:nth-child(7) {
+  background-color: #111;
+  color: #fff;
+  stroke: #fff;
+}
+
+.taste-img-list-item {
   border-radius: 15px;
   width: 260px;
   height: 270px;
   background-color: red;
-  padding: 28px 23px;
+  padding: 14px 23px 28px 23px;
 }
 
-.taste-img-list-item {
+.taste-icon {
+  fill: transparent;
+  margin-left: auto;
 }
 
 .taste-img {
