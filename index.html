@@ -30,9 +30,9 @@
         </a>
         <nav class="nav">
           <ul class="nav-list">
-            <li><a href="">Home</a></li>
-            <li><a href="">How it’s made?</a></li>
-            <li><a href="">Chocolate is loved</a></li>
+            <li class="nav-item"><a href="">Home</a></li>
+            <li class="nav-item"><a href="">How it’s made?</a></li>
+            <li class="nav-item"><a href="">Chocolate is loved</a></li>
           </ul>
         </nav>
         <ul class="header-soc-list">
@@ -85,7 +85,12 @@
       <section class="about-us">
         <div class="container about-us-container">
           <ul class="about-us-list">
-            <li class="about-ust-list-item">
+            <li class="about-us-list-item">
+            <div class="about-us-icon-container">
+              <svg class="about-us-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-chocolate-bar"></use>
+              </svg>
+            </div>
               <h3 class="about-us-title">Unsurpassed taste</h3>
               <p class="about-us-txt">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -94,7 +99,12 @@
                 Unsurpassed Taste and discover a new level of chocolate bliss.
               </p>
             </li>
-            <li class="about-ust-list-item">
+            <li class="about-us-list-item">
+              <div class="about-us-icon-container">
+              <svg class="about-us-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-Coin"></use>
+              </svg>
+            </div>
               <h3 class="about-us-title">Affordable price</h3>
               <p class="about-us-txt">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -104,7 +114,13 @@
                 in affordable luxury today.
               </p>
             </li>
-            <li class="about-ust-list-item">
+            
+            <li class="about-us-list-item">
+              <div class="about-us-icon-container">
+              <svg class="about-us-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-spoon"></use>
+              </svg>
+            </div>
               <h3 class="about-us-title">Own production</h3>
               <p class="about-us-txt">
                 We take pride in our own production process, ensuring that every
@@ -120,7 +136,7 @@
         <div class="container taste-conatiner">
           <div class="taste-title-container">
             <h2 class="taste-title">
-              it all adds up to one exceptional taste sensation
+              it all adds up to one exceptional <span class="taste-title-span">taste</span> sensation
             </h2>
           </div>
           <div class="taste-img-txt-container">
@@ -137,6 +153,14 @@
                   />
                   <p class="taste-img-txt">MILK CHOCOLATE</p>
                 </div>
+                <div class="taste-hidden-container">
+                  <h3 class="taste-hidden-title">Milk chocolate</h3>
+                  <div class="taste-hidden-btn-container">
+                    <button class="taste-yellow-btn" type="button">chocolate</button>
+                    <button class="taste-benefit-btn" type="button">the benefits</button>
+                  </div>
+                  <p class="taste-hidden-txt">Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths of all milk chocolate is sold in the United States and Europe.</p>
+                </div>
               </li>
               <li class="taste-img-list-item">
                 <div class="taste-img-container">
@@ -146,6 +170,14 @@
                   <img class="taste-img" src="./images/milc.png" alt="milc" width="214"  />
                   <p>MILK</p>
                 </div>
+                <div class="taste-hidden-container">
+                  <h3 class="taste-hidden-title">Milk</h3>
+                  <div class="taste-hidden-btn-container">
+                    <button class="taste-yellow-btn" type="button">milk </button>
+                    <button class="taste-benefit-btn" type="button">the benefits</button>
+                  </div>
+                  <p class="taste-hidden-txt">Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals (including breastfed human infants) before they are able to digest solid food.Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune system.</p>
+                </div>
               </li>
               <li class="taste-img-list-item">
                 <div class="taste-img-container">
@@ -154,6 +186,14 @@
                   </svg>
                   <img class="taste-img" src="./images/nuts.png" alt="nuts" width="214" />
                   <p class="taste-img-txt">NUTS</p>
+                </div>
+                <div class="taste-hidden-container">
+                  <h3 class="taste-hidden-title">Nuts</h3>
+                  <div class="taste-hidden-btn-container">
+                    <button class="taste-yellow-btn" type="button">nuts</button>
+                    <button class="taste-benefit-btn" type="button">the benefits</button>
+                  </div>
+                  <p class="taste-hidden-txt">Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease. They’re a good source of fiber, healthy fats, and plant protein. Plus, they’re great on their own.</p>
                 </div>
               </li>
               <li class="taste-img-list-item">
@@ -168,6 +208,14 @@
                   />
                   <p class="taste-img-txt">SEMI - SWEET CHOCOLATE</p>
                 </div>
+                <div class="taste-hidden-container">
+                  <h3 class="taste-hidden-title">semi - sweet chocolate</h3>
+                  <div class="taste-hidden-btn-container">
+                    <button class="taste-yellow-btn" type="button">sweet chocolate</button>
+                    <button class="taste-benefit-btn" type="button">the benefits</button>
+                  </div>
+                  <p class="taste-hidden-txt">Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type of chocolate is to compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste comparison, it has a slightly bitter taste whereas milk chocolate is sweeter and more mellow. </p>
+                </div>
               </li>
               <li class="taste-img-list-item">
                 <div class="taste-img-container">
@@ -179,6 +227,14 @@
                   </svg>
                   <img class="taste-img" src="./images/cacao.png" alt="cacao" width="214" />
                   <p class="taste-img-txt">CACAO</p>
+                </div>
+                <div class="taste-hidden-container">
+                  <h3 class="taste-hidden-title">CACAO</h3>
+                  <div class="taste-hidden-btn-container">
+                    <button class="taste-yellow-btn" type="button">cacao</button>
+                    <button class="taste-benefit-btn" type="button">the benefits</button>
+                  </div>
+                  <p class="taste-hidden-txt">Cocoa is a natural product obtained from the fruits of the cocoa tree (Theobroma cacao). This tropical fruit contains beans, from which cocoa mass, cocoa powder and chocolate are made. The history of the use of cocoa goes back to ancient times. Already in ancient Mesoamerica, the Mayan and Aztec civilizations used cocoa in their culture and rituals</p>
                 </div>
               </li>
               <li class="taste-img-list-item">
@@ -197,6 +253,14 @@
                   />
                   <p class="taste-img-txt">RASPBERRY</p>
                 </div class="taste-img-container">
+                <div class="taste-hidden-container">
+                  <h3 class="taste-hidden-title">raspberry</h3>
+                  <div class="taste-hidden-btn-container">
+                    <button class="taste-yellow-btn" type="button">raspberry</button>
+                    <button class="taste-benefit-btn" type="button">the benefits</button>
+                  </div>
+                  <p class="taste-hidden-txt">Raspberry is a tasty and aromatic berry plant that is popular all over the world. It belongs to the pink family and grows in many regions, including North America, Europe and Asia. Raspberries have many varieties and color variations, from red to yellow and black.</p>
+                </div>
               </li>
               <li class="taste-img-list-item">
                 <div class="taste-img-container">
@@ -205,6 +269,14 @@
                   </svg>
                   <img  class="taste-img" src="./images/coconut.png" alt="coconut" width="214" />
                   <p class="taste-img-txt">COCONUT OIL</p>
+                </div>
+                <div class="taste-hidden-container">
+                  <h3 class="taste-hidden-title">СOconut oil</h3>
+                  <div class="taste-hidden-btn-container">
+                    <button class="taste-yellow-btn" type="button">coconut oil</button>
+                    <button class="taste-benefit-btn" type="button">the benefits</button>
+                  </div>
+                  <p class="taste-hidden-txt">Coconut oil is a vegetable oil obtained from the pulp of the fruit of the coconut palm (Cocos nucifera). It is widely used in cooking, cosmetics and medicine, thanks to its numerous useful properties. Coconut oil is a source of saturated fats, especially medium-chain fatty acids, such as lauric acid.</p>
                 </div>
               </li>
             </ul>
