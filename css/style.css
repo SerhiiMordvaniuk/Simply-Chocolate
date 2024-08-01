@@ -64,7 +64,7 @@ button {
   font-style: italic;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: -0.03em;
   color: #111;
   text-transform: uppercase;
@@ -97,7 +97,7 @@ button {
 .nav-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14286;
+  line-height: 1.14;
   letter-spacing: -0.02em;
   color: #111111;
 }
@@ -148,7 +148,7 @@ button {
   max-width: 484px;
   font-weight: 500;
   font-size: 28px;
-  line-height: 1.21429;
+  line-height: 1.21;
   letter-spacing: -0.03em;
   color: #fff;
   margin-bottom: 32px;
@@ -209,7 +209,7 @@ button {
 .hero-scroll-txt {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.03em;
   color: #fff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -304,7 +304,7 @@ button {
 .about-us-txt {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -314,7 +314,7 @@ button {
 .section-title {
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   text-align: center;
@@ -389,7 +389,7 @@ button {
 .taste-img-txt {
   font-weight: 600;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
 }
 
@@ -448,7 +448,7 @@ button {
 .taste-hidden-txt {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111;
 }
@@ -483,7 +483,7 @@ button {
 .made-txt-label {
   font-weight: 600;
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   color: black;
   margin-bottom: 28px;
   width: 350px;
@@ -492,7 +492,7 @@ button {
 .made-list-item {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: black;
 }
@@ -533,7 +533,7 @@ button {
 .product-lable {
   font-weight: 600;
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: black;
@@ -543,7 +543,7 @@ button {
 .product-txt {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(17, 17, 17, 0.7);
   margin-bottom: 13px;
@@ -564,8 +564,17 @@ button {
 
 .sellers-container {
   margin-bottom: 120px;
+}
+
+.sellers-list {
   display: flex;
   gap: 16px;
+}
+
+.sellers-list-item {
+  width: calc((100% - 32px) / 3);
+  position: relative;
+  overflow: hidden;
 }
 
 .sellers-label-container {
@@ -576,15 +585,43 @@ button {
   border-left: 1px solid rgba(17, 17, 17, 0.1);
   border-right: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 0 0 15px 15px;
-  width: 368px;
 }
 
 .sellers-lable {
   font-weight: 600;
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: var(--black);
+  color: black;
   text-align: center;
+}
+
+.sellers-hidden {
+  padding: 160px 40px;
+  backdrop-filter: blur(15px);
+  background: linear-gradient(
+    161deg,
+    rgba(253, 253, 255, 0.1) 0%,
+    rgba(8, 2, 21, 0.1) 100%
+  );
+  position: absolute;
+  top: 0;
+  transform: rotateX(90deg);
+  transition: transform 1000ms ease-in-out;
+  border-radius: 15px 15px 0 0;
+}
+
+.sellers-list-item:hover .sellers-hidden,
+.sellers-list-item:focus .sellers-hidden {
+  transform: rotateX(0);
+}
+
+.sellers-hidden-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-align: left;
 }
