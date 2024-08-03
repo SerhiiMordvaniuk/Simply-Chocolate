@@ -804,3 +804,59 @@ button {
 .footer-btn:active {
   transform: scale(1.025);
 }
+
+/*-----------MODAL----------*/
+.modal {
+  background-color: ;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 517px;
+  padding: 24px 24px 40px 40px;
+}
+
+.modal-close-btn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-icon {
+  fill: black;
+  stroke: black;
+}
+
+.section-title {
+  width: 298px;
+  margin-bottom: 36px;
+}
+
+.modal-label {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.modal-input {
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 13px;
+  padding: 22px 24px;
+  width: 437px;
+  height: 68px;
+}
+
+.modal-input:hover,
+.modal-input:focus {
+  border-color: #fd9222;
+  outline: none;
+}
