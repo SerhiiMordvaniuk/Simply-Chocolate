@@ -807,7 +807,14 @@ button {
 
 /*-----------MODAL----------*/
 .modal {
-  background-color: ;
+  background-color: rgba(253, 147, 34, 0.404);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-form {
@@ -837,7 +844,7 @@ button {
 
 .section-title {
   width: 298px;
-  margin-bottom: 36px;
+  margin-bottom: 30px;
 }
 
 .modal-label {
@@ -845,6 +852,7 @@ button {
   font-size: 14px;
   letter-spacing: -0.02em;
   color: rgba(64, 64, 64, 0.3);
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -852,11 +860,47 @@ button {
   border-radius: 13px;
   padding: 22px 24px;
   width: 437px;
-  height: 68px;
+  height: 60px;
+  margin-bottom: 18px;
 }
 
 .modal-input:hover,
 .modal-input:focus {
   border-color: #fd9222;
   outline: none;
+}
+
+.modal-textarea {
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 13px;
+  padding: 22px 24px 93px 24px;
+  width: 436px;
+  height: 137px;
+  margin-bottom: 18px;
+}
+
+.modal-textarea:hover,
+.modal-textarea:focus {
+  border-color: #fd9222;
+  outline: none;
+  resize: none;
+}
+
+.input-check-txt {
+  margin-bottom: 40px;
+}
+
+.modal-check {
+}
+
+.modal-btn {
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 117px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  background-color: #fd9222;
+  border: none;
 }
