@@ -38,6 +38,9 @@
     <symbol id="icon-ellipse" viewBox="0 0 32 32">
       <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4" d="M30 16c0 7.732-6.268 14-14 14s-14-6.268-14-14c0-7.732 6.268-14 14-14s14 6.268 14 14z"></path>
     </symbol>
+    <symbol id="icon-vector" viewBox="0 0 4352 32">
+      <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h4352"></path>
+    </symbol>
     
   </defs>
 </svg>
