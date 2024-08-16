@@ -346,7 +346,7 @@
                 <source srcset="./images/made/made-img-tab.jpg 1x, 
                 ./images/made/made-img-tab-2x.jpg 2x" media="(min-width:768px)">
                 <source srcset="./images/made/made-img-mob.jpg 1x, 
-                ./images/made/made-img-mob-2x.jpg 2x" media="(min-width:375px)">
+                ./images/made/made-img-mob-2x.jpg 2x" media="(min-width:320px)">
                 <img class="made-img" src="./images/made/made-img.jpg" alt="chokolade" width="600">
               </picture>
             </div>
@@ -365,7 +365,7 @@
           </div>
         </div>
       </section>
-      <!-- <section class="product">
+      <section class="product">
         <div class="container product-container">
           <h3 class="section-title">our <span class="section-title-span">products</span></h3>
           <ul class="product-list">
@@ -443,12 +443,13 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="top-sellers">
+      </section>
+      <section class="top-sellers">
         <div class="container sellers-container">
           <h2 class="section-title"><span class="section-title-span">top</span> sellers</h2>
           <ul class="sellers-list">
             <li class="sellers-list-item">
+<!-- /*-----------Потрібно замінити картинки----------------------*/ -->
               <picture>
                 <source>
                 <img class="sellers-img" src="./images/sellers/sell-img-1.jpg" alt="" width="368" height="464">
@@ -461,7 +462,7 @@
               </div>
               
             </li>
-            <li class="sellers-list-item">
+            <li class="sellers-list-item sellers-list-hidden">
               <img class="sellers-img" src="./images/sellers/sell-img-2.jpg" alt="" width="368" height="464">
               <div class="sellers-label-container">
                 <h4 class="sellers-lable">CHOCOLATE WITH FRUITS</h4> 
@@ -470,7 +471,7 @@
                 <p class="sellers-hidden-txt">Chocolate with fruit is an unbeatable combination of two of the tastiest things in the world. This dessert combines delicate and aromatic chocolate with fresh and juicy fruits, creating a true poetry of taste.</p>
               </div>
             </li>
-            <li class="sellers-list-item">
+            <li class="sellers-list-item sellers-list-hidden">
               <img class="sellers-img" src="./images/sellers/sell-img-3.jpg" alt="" width="368" height="464">
               <div class="sellers-label-container">
                 <h4 class="sellers-lable">DARK CHOCOLATE</h4> 
@@ -483,8 +484,8 @@
           </div>
           </div>
         </div>
-      </section> -->
-      <!-- <section class="loved">
+      </section>
+      <section class="loved">
         <div class="container loved-container">
           <h2 class="section-title"><span class="section-title-span">chocolate</span> is loved </h2>
           <ul class="loved-list">
@@ -497,7 +498,7 @@
               <h4 class="loved-lable">Victoria Dobrzhanska</h4>
               <p class="loved-txt">I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.</p>
             </li>
-            <li class="loved-list-item">
+            <li class="loved-list-item loved-list-hidden">
               <source srcset="./images/loved/loved-img-2.png 
                 ./images/loved/loved-img-2-2x.png">
                 <img class="loved-img" src="./images/loved/loved-img-2.png" alt="Viktoria" width="80">
@@ -505,7 +506,7 @@
               <h4 class="loved-lable">Nazar Babenko</h4>
               <p class="loved-txt">This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth, and the chocolate is good.</p>
             </li>
-            <li class="loved-list-item">
+            <li class="loved-list-item loved-list-hidden">
               <source srcset="./images/loved/loved-img-3.png 
                 ./images/loved/loved-img-3-2x.png">
                 <img class="loved-img" src="./images/loved/loved-img-3.png" alt="Viktoria" width="80">
@@ -516,10 +517,10 @@
           </ul>
           <button class="loved-btn" type="button">Leave  a review</button>
         </div>
-      </section> -->
+      </section>
     </main>
 
-    <!-- <footer>
+    <footer>
       <section class="footer">
         <div class="container footer-container">
           <div class="footer-top-container">
@@ -574,18 +575,25 @@
             </div>
           </div>
           <div class="footer-bottom-container">
-            <nav class="nav">
-              <ul class="nav-list">
+            <nav class="footer-nav">
+              <ul class="footer-nav-list">
                 <li><a class="footer-nav-item nav-item" href="">Home</a></li>
                 <li>
                   <a class="footer-nav-item nav-item" href="">How it's made?</a>
                 </li>
                 <li>
+                  <a class="footer-nav-item" href="">Our products</a>
+                </li>
+                <li>
+                  <a class="footer-nav-item" href="">Top sellers</a>
+                </li>
+                <li>
                   <a class="footer-nav-item" href="">Chocolate is loved</a>
                 </li>
+
               </ul>
             </nav>
-            <div>
+            <div class="footer-input-container">
               <input
                 class="footer-input"
                 type="text"
@@ -597,18 +605,18 @@
           </div>
         </div>
       </section>
-    </footer> -->
+    </footer>
 
-    <!-- <section class="modal">
+    <section class="modal">
       <div class="modal-container">
 
         <form class="modal-form">
           <button class="modal-close-btn">
-            <svg class="modal-icon" width="28" height="128" >
+            <svg class="modal-icon" width="28" height="28" >
               <use href="./images/icons.svg#icon-x-close"></use>
             </svg>
           </button>
-          <h2 class="section-title" >LEAVE A REVIEW ABOUT <span class="section-title-span">OUR CHOCOLATE</span></h2>
+          <h2 class="modal-section-title" >LEAVE A REVIEW <br> ABOUT <span class="section-title-span">OUR CHOCOLATE</span></h2>
           <label class="modal-label" for="" >Name</label>
           <input class="modal-input" type="text" id="">
           <label class="modal-label" for="" >Email</label>
@@ -622,6 +630,6 @@
         </form>
       </div>
 
-    </section> -->
+    </section>
   </body>
 </html>
